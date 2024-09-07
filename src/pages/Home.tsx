@@ -63,8 +63,10 @@ import { FaFlask } from "react-icons/fa";
 import { FaSchool } from "react-icons/fa";
 import { FaGraduationCap } from "react-icons/fa";
 import image from "../assets/img1.jpg";
+import image2 from "../assets/img2.jpg";
 import MissionStatement from "../components/MissionStatement";
 import Counter from "../components/Counter";
+import Sections from "../components/Sections";
 
 // import MissionStatement from "./MissionStatement";
 // import VisionStatement from "./VisionStatement";
@@ -184,6 +186,39 @@ const Home = () => {
       </div>
       <div>
         <Counter/>
+      </div>
+      <div>
+      
+        <div className="flex justify-center items-center space-y-4 p-8">
+         
+        <div className="w-1/2 h-full bg-cream p-4 flex justify-center items-center">
+        
+          <div className="flex flex-col md:flex-row items-center h-screen p-6">
+            {/* Image Section */}
+            
+
+            {/* Text Section */}
+            <div className="flex-1 md:w-1/2 md:pl-6">
+            <img
+              src={image2}
+              alt="mission"
+              className="object-cover rounded-3xl h-full w-full"
+            />
+      
+            </div>
+          </div>
+        </div>
+        <div className="w-1/2 h-full  p-4 flex justify-center items-center">
+          <div className="flex-1 md:w-1/2">
+          <h1 className='text-center justify-center items-center text-blue-800 text-4xl font-bold mb-4'>
+            Our Sections
+        </h1>
+          
+              <Sections/>
+          </div>
+        </div>
+      </div>
+
       </div>
 
       {/* <MissionStatement />

@@ -6,10 +6,11 @@ import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
-    <div id="root" className="flex flex-col min-h-screen">
+    <div id="root" className="flex flex-col ">
       <Topbar />
       <Navbar />
-      <main className="flex-1">
+
+      <main className="">
         <Home />
       </main>
       <Footer />

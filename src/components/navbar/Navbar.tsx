@@ -22,7 +22,7 @@ const Navbar = () => {
   // };
 
   return (
-    <div className="w-full min-h-[90px] flex justify-between items-center  sticky top-0 z-10 text-blue-600 bg-white">
+    <div className="w-full min-h-[90px] flex justify-between items-center px-16  sticky top-0 z-10 text-blue-600 bg-white">
       {/* Desktop Navigation */}
 
       <h1>Enfedam Academy</h1>

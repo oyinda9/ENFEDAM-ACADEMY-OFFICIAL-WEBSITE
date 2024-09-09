@@ -67,9 +67,9 @@ import image2 from "../assets/img2.jpg";
 import MissionStatement from "../components/MissionStatement";
 import Counter from "../components/Counter";
 import Sections from "../components/Sections";
-
-// import MissionStatement from "./MissionStatement";
-// import VisionStatement from "./VisionStatement";
+import LearnMore from "../components/LearnMore";
+import NewsAndEvents from "../components/NewsAndEvents";
+// import Footer from "../components/footer/Footer";
 
 const images = [img1, img2, img3, img4];
 
@@ -107,7 +107,7 @@ const Home = () => {
             </button>
           </div>
         </div>
-      </div>
+      
       {/* about us components */}
       <AboutUs />
 
@@ -185,44 +185,56 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <Counter/>
+        <Counter />
       </div>
       <div>
-      
         <div className="flex justify-center items-center space-y-4 p-8">
-         
-        <div className="w-1/2 h-full bg-cream p-4 flex justify-center items-center">
-        
-          <div className="flex flex-col md:flex-row items-center h-screen p-6">
-            {/* Image Section */}
-            
+          <div className="w-1/2 h-full bg-cream p-4 flex justify-center items-center">
+            <div className="flex flex-col md:flex-row items-center h-screen p-6">
+              {/* Image Section */}
 
-            {/* Text Section */}
-            <div className="flex-1 md:w-1/2 md:pl-6">
-            <img
-              src={image2}
-              alt="mission"
-              className="object-cover rounded-3xl h-full w-full"
-            />
-      
+              {/* Text Section */}
+              <div className="flex-1 md:w-1/2 md:pl-6">
+                <img
+                  src={image2}
+                  alt="mission"
+                  className="object-cover rounded-3xl h-full w-full"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="w-1/2 h-full  p-4 flex justify-center items-center">
+            <div className="flex-1 md:w-1/2">
+              <h1 className="text-center justify-center items-center text-blue-800 text-4xl font-bold mb-4">
+                Our Sections
+              </h1>
+
+              <Sections />
             </div>
           </div>
         </div>
-        <div className="w-1/2 h-full  p-4 flex justify-center items-center">
+
+        <div className="w-full h-full  p-4 flex justify-center items-center">
           <div className="flex-1 md:w-1/2">
-          <h1 className='text-center justify-center items-center text-blue-800 text-4xl font-bold mb-4'>
-            Our Sections
-        </h1>
-          
-              <Sections/>
+            <h1 className="text-center justify-center items-center text-blue-800 text-4xl font-bold mb-4">
+              Learn More About Enfedam Academy
+            </h1>
+
+            <LearnMore />
+          </div>
+        </div>
+
+        <div className="w-full h-full  p-8 flex justify-center items-center">
+          <div className="flex-1 md:w-1/2">
+            <h1 className="text-center justify-center items-center text-blue-800 text-4xl font-bold mb-4">
+              News & Events
+            </h1>
+
+            <NewsAndEvents />
           </div>
         </div>
       </div>
-
-      </div>
-
-      {/* <MissionStatement />
-      <VisionStatement /> */}
+    </div>
     </div>
   );
 };

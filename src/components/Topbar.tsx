@@ -24,7 +24,7 @@ const Topbar = () => {
       </div>
       <div className="flex items-end justify-end ml-auto space-x-4">
         <button className="bg-gradient-to-r from-blue-600 to-sky-500 text-white font-bold py-2 px-4 rounded">
-          Apply Now
+          Log in
         </button>
       </div>
     </div>

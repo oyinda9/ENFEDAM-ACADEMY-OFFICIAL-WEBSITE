@@ -2,11 +2,12 @@ import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import {
   FaFacebookF,
-  FaTwitter,
+  FaWhatsapp,
   FaInstagram,
   FaLinkedinIn,
   FaBars,
   FaTimes,
+
 } from "react-icons/fa";
 
 const Navbar = () => {
@@ -30,12 +31,13 @@ const Navbar = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/about" className="font-poppins">About Us</Link>
+          <Link to="/about" className="font-poppins">
+            About Us
+          </Link>
         </li>
         {/* Sections dropdown */}
 
-       
-         <li className="relative group">
+        <li className="relative group">
           <Link to="#" className="focus:outline-none">
             Sections
           </Link>
@@ -56,7 +58,7 @@ const Navbar = () => {
             </li>
           </ul>
         </li>
-  
+
         <li>
           <Link to="/news">News & Events</Link>
         </li>
@@ -64,7 +66,10 @@ const Navbar = () => {
           <Link to="/gallery"> Gallery</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/Contact">Contact</Link>
+        </li>
+        <li>
+          <Link to="/Admissions">Admissions</Link>
         </li>
       </ul>
 
@@ -73,7 +78,7 @@ const Navbar = () => {
         <FaFacebookF />
         <FaInstagram />
         <FaLinkedinIn />
-        <FaTwitter />
+        <FaWhatsapp />
       </div>
 
       {/* Hamburger Menu for Mobile */}
@@ -123,6 +128,12 @@ const Navbar = () => {
           <li className="text-2xl">
             <Link onClick={handleNav} to="/gallery">
               Gallery
+            </Link>
+          </li>
+
+          <li className="text-2xl">
+            <Link onClick={handleNav} to="/gallery">
+              Admissions
             </Link>
           </li>
         </ul>

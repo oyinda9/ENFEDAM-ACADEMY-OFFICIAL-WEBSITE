@@ -86,30 +86,29 @@ const Home = () => {
 
   return (
     <div className="flex flex-col items-center">
-     <section
-  style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
-  className="relative bg-center bg-cover h-screen w-full"
->
-  {/* Dark Overlay */}
-  <div className="absolute inset-0 bg-black opacity-60"></div>
-  
-  <div className="h-full p-4 flex justify-center relative">
-    <div className="flex flex-col justify-center items-center w-fit">
-      <h1 className="text-white text-3xl md:text-4xl lg:text-[60px] font-bold mb-4 pb-5 font-poppins">
-        ENFEDAM ACADEMY
-      </h1>
-      <p className="text-white text-lg font-medium ml-2">
-        Elevating Your Child's Well-Being Is Our Top Priority
-      </p>
-      <div className="flex items-end justify-center space-x-4 pt-6">
-        <button className="bg-gradient-to-r from-blue-600 to-sky-500 text-white font-bold py-2 px-4 rounded">
-          Apply Now
-        </button>
-      </div>
-    </div>
-  </div>
-</section>
+      <section
+        style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
+        className="relative bg-center bg-cover h-screen w-full"
+      >
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-black opacity-60"></div>
 
+        <div className="h-full p-4 flex justify-center relative">
+          <div className="flex flex-col justify-center items-center w-fit">
+            <h1 className="text-white text-3xl md:text-4xl lg:text-[60px] font-bold mb-4 pb-5 font-poppins">
+              ENFEDAM ACADEMY
+            </h1>
+            <p className="text-white text-lg font-medium ml-2">
+              Elevating Your Child's Well-Being Is Our Top Priority
+            </p>
+            <div className="flex items-end justify-center space-x-4 pt-6">
+              <button className="bg-gradient-to-r from-blue-600 to-sky-500 text-white font-bold py-2 px-4 rounded">
+                Apply Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* about */}
       <section>

@@ -50,9 +50,9 @@ const Sections = () => {
       </div>
 
       {/* Tabs Content */}
-      <div className="mt-6">
+      <div className="mt-2">
         {activeTab === "creche" && (
-          <div className="p-4 bg-blue-100 rounded-md">
+          <div className="p-4 bg-blue-100 rounded-md h-[300px]">
             <h2 className="text-2xl font-bold">Creche Section</h2>
             <p className="mt-2 text-justify leading-10">
               Our creche offers a warm, safe, and stimulating environment. Our
@@ -66,7 +66,7 @@ const Sections = () => {
           </div>
         )}
         {activeTab === "nursery" && (
-          <div className="p-4 bg-blue-100 rounded-md">
+          <div className="p-4 bg-blue-100 rounded-md h-[300px]">
             <h2 className="text-2xl font-bold">Nursery Section</h2>
             <p className="mt-2 text-justify leading-10">
               At Enfedam Academy, our Nursery section provides a nurturing and
@@ -77,7 +77,7 @@ const Sections = () => {
           </div>
         )}
         {activeTab === "primary" && (
-          <div className="p-4 bg-blue-100 rounded-md">
+          <div className="p-4 bg-blue-100 rounded-md h-[300px]">
             <h2 className="text-2xl font-bold">Primary Section</h2>
             <p className="mt-2  text-justify leading-10">
               Our Primary Section at Enfedam Academy offers a balanced education
@@ -90,7 +90,7 @@ const Sections = () => {
           </div>
         )}
         {activeTab === "secondary" && (
-          <div className="p-4 bg-blue-100 rounded-md">
+          <div className="p-4 bg-blue-100 rounded-md h-[300px]">
             <h2 className="text-2xl font-bold">Secondary Section</h2>
             <p className="mt-2  text-justify leading-10">
               The Secondary Section at Enfedam Academy delivers a rigorous

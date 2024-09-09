@@ -7,7 +7,6 @@ import {
   FaLinkedinIn,
   FaBars,
   FaTimes,
-
 } from "react-icons/fa";
 
 const Navbar = () => {
@@ -75,10 +74,31 @@ const Navbar = () => {
 
       {/* Social Media Icons */}
       <div className="flex space-x-4 cursor-pointer">
-        <FaFacebookF />
-        <FaInstagram />
-        <FaLinkedinIn />
-        <FaWhatsapp />
+        <a
+          href="https://www.facebook.com/Enfedam/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-xl hover:text-blue-600"
+        >
+          <FaFacebookF />
+        </a>
+        <a
+          href="https://www.instagram.com/enfedam_academy?igsh=MWhzMWMwcXQwMnl1OQ== "
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-xl hover:text-pink-500"
+        >
+          <FaInstagram />
+        </a>
+        <a
+          href="https://wa.me/07030065113"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Chat with us on WhatsApp"
+          className=" hover:text-green-700 underline text-xl"
+        >
+          <FaWhatsapp />
+        </a>
       </div>
 
       {/* Hamburger Menu for Mobile */}

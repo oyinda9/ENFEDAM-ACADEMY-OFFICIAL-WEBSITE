@@ -5,4 +5,4 @@ import React from 'react'
     <div>News_and_Events</div>
   )
 }
-export default News_and_Events
+export default News_and_Events;

@@ -1,8 +1,9 @@
 
 import React from 'react'
 
-export const Admssions = () => {
+ const Admissions = () => {
   return (
-    <div>Admssions</div>
+    <div>Admissions</div>
   )
 }
+export default Admissions

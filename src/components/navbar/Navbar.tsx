@@ -4,7 +4,6 @@ import {
   FaFacebookF,
   FaWhatsapp,
   FaInstagram,
-  FaLinkedinIn,
   FaBars,
   FaTimes,
 } from "react-icons/fa";
@@ -30,7 +29,7 @@ const Navbar = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/about" className="font-poppins">
+          <Link to="/About" className="font-poppins">
             About Us
           </Link>
         </li>

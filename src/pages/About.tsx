@@ -154,10 +154,10 @@ const AboutUs = () => {
 
       {/* Extracurricular Activities Section */}
       <div className="container mx-auto px-4 space-y-8">
-        <h2 className="text-3xl font-semibold text-center text-[#002D62] mb-6">
+        <h2 className="text-3xl font-semibold text-center text-[#002D62] mb-6 p-8">
           Extracurricular Activities
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8  px-4 py-4">
           <div className="text-center p-6 bg-gray-200 rounded-lg shadow-md hover:shadow-xl transform transition duration-500 hover:scale-105">
             <MdSportsSoccer className="text-5xl text-green-500 mx-auto mb-4" />
             <h3 className="text-2xl font-bold mb-2">Sports & Fitness</h3>

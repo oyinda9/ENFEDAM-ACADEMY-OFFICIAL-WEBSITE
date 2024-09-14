@@ -32,31 +32,31 @@ const Footer = () => {
               </li>
               <li>
                
-                  <Link  to="../pages/About">About</Link>
+                  <Link  to="/about">About</Link>
               
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="/Admissions" className="hover:underline">
                   Admission
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:underline">
+                <a href="/Gallery" className="hover:underline">
                   Gallery
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:underline">
+                <a href="/news" className="hover:underline">
                   News & Events
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:underline">
+                <a href="/Sections" className="hover:underline">
                   Sections
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:underline">
+                <a href="/contact" className="hover:underline">
                   Contact
                 </a>
               </li>

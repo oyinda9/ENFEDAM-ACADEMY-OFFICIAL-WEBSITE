@@ -1,57 +1,3 @@
-// import React, { useState, useEffect } from "react";
-// import img1 from "../assets/img1.jpg";
-// import img2 from "../assets/img2.jpg";
-// import img3 from "../assets/img3.jpg";
-// import img4 from "../assets/img4.jpg";
-// import AboutUs from "../components/AboutUs";
-
-// const images = [img1, img2, img3, img4];
-
-// const Home = () => {
-//   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-//   useEffect(() => {
-//     const interval = setInterval(() => {
-//       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-//     }, 5000); // Change image every 5 seconds
-
-//     return () => clearInterval(interval);
-//   }, []);
-
-//   return (
-//     <div className="relative h-screen w-full overflow-hidden">
-//       <div
-//         style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
-//         className="absolute inset-0 bg-center bg-cover transition-opacity duration-1000"
-//       ></div>
-//       {/* Dark Overlay */}
-//       <div className="absolute inset-0 bg-black/60"></div>
-//       {/* Content */}
-
-//       <div className="relative z-10 h-full w-full flex items-center pl-8 space-y-8 md:-[50%]">
-//         <div className="text-left">
-//           <h1 className="text-white text-3xl md:text-4xl lg:text-[60px] font-bold mb-4 pb-5 font-poppins">
-//             ENFEDAM ACADEMY
-//           </h1>
-//           <p className="text-white text-lg font-medium ml-2">
-//             Elevating Your Child's Well-Being Is Our Top Priority
-//           </p>
-//           <div className="flex items-end justify-start  space-x-4 pt-6">
-//         <button className="bg-gradient-to-r from-blue-600 to-sky-500 text-white font-bold py-2 px-4 rounded">
-//           Apply Now
-//         </button>
-//         </div>
-//         </div>
-
-//       </div>
-//       <div>
-//           <AboutUs/>
-//         </div>
-//     </div>
-//   );
-// };
-
-// export default Home;
 import React, { useState, useEffect } from "react";
 import img1 from "../assets/img1.jpg";
 import img2 from "../assets/img2.jpg";
@@ -69,8 +15,6 @@ import Counter from "../components/Counter";
 import Sections from "../components/Sections";
 import LearnMore from "../components/LearnMore";
 import NewsAndEvents from "../components/NewsAndEvents";
-// import Footer from "../components/footer/Footer";
-
 const images = [img1, img2, img3, img4];
 
 const Home = () => {
